@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RMMapView.h"
 
-@interface OfflineMapTestViewController : UIViewController
+@interface OfflineMapTestViewController : UIViewController <RMMapViewDelegate> {
+	RMMapView *mapview;
+}
+
+@property(nonatomic,retain) RMMapView *mapview;
 
 @end
