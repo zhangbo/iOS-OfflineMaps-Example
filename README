@@ -1,0 +1,20 @@
+ _        __ _       _ _             _                 _      _       
+(_)      / _(_)     (_) |           | |               | |    | |      
+ _ _ __ | |_ _ _ __  _| |_ ___    __| |_ __ ___  _ __ | | ___| |_ ___ 
+| | '_ \|  _| | '_ \| | __/ _ \  / _` | '__/ _ \| '_ \| |/ _ \ __/ __|
+| | | | | | | | | | | | ||  __/ | (_| | | | (_) | |_) | |  __/ |_\__ \
+|_|_| |_|_| |_|_| |_|_|\__\___|  \__,_|_|  \___/| .__/|_|\___|\__|___/
+                                                | |                   
+                                                |_|                   
+                                                
+	iOS OfflineMaps Example by Thijs Scheepers
+	thijs@infinitedroplets.com
+	+31 (0)53 711 3499
+	
+	Free to use
+
+If you want to use Offline Maps in your iOS application, this is an example on how you could do it. We use the route-me framework with a sqlite database of the map information.
+
+* See how to download the tiles. [[Download tiles]] tutorial
+
+* See how to create a sqlite database of the tiles. [[Create-database-of-tiles]] tutorial

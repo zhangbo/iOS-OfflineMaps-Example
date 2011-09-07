@@ -20,7 +20,7 @@
 		76DA71611417669600BB382D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DA71601417669600BB382D /* CoreLocation.framework */; };
 		76DA7163141766A000BB382D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DA7162141766A000BB382D /* libsqlite3.dylib */; };
 		76DA7165141766A700BB382D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DA7164141766A700BB382D /* QuartzCore.framework */; };
-		76DA717014176B1D00BB382D /* ph-1.0.0.db in Resources */ = {isa = PBXBuildFile; fileRef = 76DA716F14176B1D00BB382D /* ph-1.0.0.db */; };
+		76DA71761417842100BB382D /* tiles.db in Resources */ = {isa = PBXBuildFile; fileRef = 76DA71751417842100BB382D /* tiles.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +73,7 @@
 		76DA71601417669600BB382D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		76DA7162141766A000BB382D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		76DA7164141766A700BB382D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		76DA716F14176B1D00BB382D /* ph-1.0.0.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ph-1.0.0.db"; sourceTree = "<group>"; };
+		76DA71751417842100BB382D /* tiles.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = tiles.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +97,7 @@
 		76DA6ECA141765F400BB382D = {
 			isa = PBXGroup;
 			children = (
-				76DA716F14176B1D00BB382D /* ph-1.0.0.db */,
+				76DA71751417842100BB382D /* tiles.db */,
 				76DA6EDF141765F500BB382D /* OfflineMapTest */,
 				76DA6ED8141765F500BB382D /* Frameworks */,
 				76DA6ED6141765F500BB382D /* Products */,
@@ -245,7 +245,7 @@
 				76DA6EE4141765F500BB382D /* InfoPlist.strings in Resources */,
 				76DA6EED141765F500BB382D /* MainWindow.xib in Resources */,
 				76DA6EF3141765F500BB382D /* OfflineMapTestViewController.xib in Resources */,
-				76DA717014176B1D00BB382D /* ph-1.0.0.db in Resources */,
+				76DA71761417842100BB382D /* tiles.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

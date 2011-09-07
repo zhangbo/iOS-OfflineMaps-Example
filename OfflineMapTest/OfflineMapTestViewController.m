@@ -27,7 +27,7 @@
     [mapview setBackgroundColor:[UIColor whiteColor]];
     mapview.delegate = self;	
     
-    id <RMTileSource> tileSource = [[[RMDBMapSource alloc] initWithPath:@"ph-1.0.0.db"] autorelease];
+    id <RMTileSource> tileSource = [[[RMDBMapSource alloc] initWithPath:@"tiles.db"] autorelease];
     
     RMMapContents *rmcontents = [[RMMapContents alloc] initWithView:mapview tilesource:tileSource]; 
     
@@ -35,12 +35,12 @@
     //[rmcontents setMaxZoom:14.0f];
     //[rmcontents setMinZoom:13.0f];
     
-    [rmcontents setZoom:6.0f];
+    [rmcontents setZoom:15.0f];
     
     CLLocationCoordinate2D demoCoordinate;
     
-    demoCoordinate.latitude = 12.02; //Manila.db
-    demoCoordinate.longitude = 121.74;
+    demoCoordinate.latitude = 52.24324;
+    demoCoordinate.longitude = 6.85206;
     
     [rmcontents setMapCenter:demoCoordinate];
     
